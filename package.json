@@ -1,0 +1,28 @@
+{
+  "name": "express",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./dist/bin/www.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "mongo-sanitize": "^1.0.0",
+    "mongodb": "^2.2.28",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.2",
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/es6-shim": "^0.31.34",
+    "@types/express": "^4.0.35",
+    "@types/mongodb": "^2.2.4",
+    "@types/mongoose": "^4.7.17",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.29",
+    "nodemon": "^1.11.0"
+  }
+}
+
